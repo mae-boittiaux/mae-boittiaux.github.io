@@ -1,0 +1,48 @@
+:root {
+    /* colours */
+    --white: #fdfdfd;
+    --dark-grey: #333;
+
+    /* font-sizes */
+    --font-large: 40px;
+    --font-normal: 14px;
+
+    /* font-family */
+    --font-family: "Libre Baskerville", serif;
+}
+
+::selection {
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--dark-grey);
+    background-color: var(--white);
+    font-family: var(--font-family);
+}
+
+h1 {
+    margin: 0;
+    padding-top: 400px;
+    padding-left: 120px;
+    font-size: var(--font-large);
+}
+
+a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: var(--dark-grey);
+    font-size: var(--font-normal);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.urls {
+    padding-top: 10px;
+    padding-left: 122px;
+}
