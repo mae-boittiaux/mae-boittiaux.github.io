@@ -1,7 +1,7 @@
 :root {
     /* colours */
-    --white: #fdfdfd;
-    --dark-grey: #333;
+    --dark-brown: #352b27;
+    --muted-green: #b5c5a8;
 
     /* font-sizes */
     --font-large: 40px;
@@ -12,22 +12,22 @@
 }
 
 ::selection {
-    color: var(--white);
-    background-color: var(--dark-grey);
+    color: var(--muted-green);
+    background-color: var(--dark-brown);
 }
 
 body {
     margin: 0;
     padding: 0;
-    color: var(--dark-grey);
-    background-color: var(--white);
+    color: var(--dark-brown);
     font-family: var(--font-family);
+    background-color: var(--muted-green);
 }
 
 a {
     padding-right: 20px;
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--dark-brown);
     font-size: var(--font-normal);
 }
 
