@@ -47,3 +47,12 @@ a:hover {
     padding-top: 400px;
     padding-left: 120px;
 }
+
+#abstract-fishies {
+    top: 20px;
+    margin: 0;
+    right: 20px;
+    width: 288px;
+    height: 288px;
+    position: absolute;
+}
