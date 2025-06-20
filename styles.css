@@ -81,3 +81,9 @@ footer {
     margin-right: 12px;
     margin-bottom: 2px;
 }
+
+.no-drag {
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
