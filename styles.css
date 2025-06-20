@@ -67,7 +67,17 @@ header {
 footer {
     bottom: 0;
     width: 100%;
-    height: 20px;
+    height: 36px;
     position: absolute;
     background-color: var(--medium-brown);
+}
+
+#github-url {
+    right: 0;
+    bottom: 0;
+    width: 336px;
+    height: 24px;
+    position: absolute;
+    margin-right: 12px;
+    margin-bottom: 2px;
 }
