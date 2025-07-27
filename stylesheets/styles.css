@@ -1,11 +1,21 @@
 :root {
     /* colours */
     --dark-brown: #352b27;
-    --muted-green: #b5c5a8;
     --medium-brown: #b39984;
 
+    --light-beige: #f6efd1;
+    --medium-beige: #e7dec1;
+    --dark-beige: #d6d0b2;
+
+    --muted-blue: #758a8f;
+    --muted-pink: #a48a91;
+    --muted-green: #b5c5a8;
+    --muted-purple: #988b95;
+    --muted-yellow: #b8a986;
+
     /* font-sizes */
-    --font-large: 40px;
+    --font-large: 42px;
+    --font-medium: 24px;
     --font-normal: 14px;
 
     /* font-family */
@@ -26,7 +36,6 @@ body {
 }
 
 a {
-    padding-right: 20px;
     text-decoration: none;
     color: var(--dark-brown);
     font-size: var(--font-normal);
@@ -37,8 +46,55 @@ a:hover {
 }
 
 .urls {
-    padding-top: 10px;
-    padding-left: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--dark-brown);
+    background-color: var(--medium-beige);
+}
+
+#urls-header {
+    width: 282px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-brown);
+    background-color: var(--muted-green);
+}
+
+#urls-header-title {
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: var(--font-medium);
+}
+
+.project-url {
+    margin: auto;
+    width: 200px;
+    height: 20px;
+    display: block;
+    padding-top: 2px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding-bottom: 2px;
+    border: 1px solid var(--dark-brown);
+    border-right: 2px solid var(--dark-brown);
+    border-bottom: 2px solid var(--dark-brown);
+}
+
+#todo-list {
+    border-left: 4px solid var(--muted-pink);
+}
+
+#offline-map {
+    border-left: 4px solid var(--muted-blue);
+}
+
+#colour-palette {
+    border-left: 4px solid var(--muted-yellow);
 }
 
 #mae-boittiaux {
