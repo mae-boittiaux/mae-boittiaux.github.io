@@ -24,11 +24,12 @@
     --font-family: "Courier Prime", monospace;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-family);
-    background-color: var(--muted-green);
+#github-url {
+    top: 2px;
+    right: 8px;
+    padding-right: 0;
+    position: absolute;
+    color: var(--dark-green);
 }
 
 a {
@@ -53,10 +54,93 @@ footer {
     -webkit-user-select: none;
 }
 
-#github-url {
-    top: 2px;
-    right: 8px;
-    padding-right: 0;
-    position: absolute;
-    color: var(--dark-green);
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: var(--font-family);
+    background-color: var(--muted-green);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.phone {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    border-radius: 110px;
+    background: #fdf8e3;
+    flex-direction: column;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.status-bar {
+    height: 30px;
+    display: flex;
+    font-size: 28px;
+    margin-top: 30px;
+    color: #E0DACA;
+    font-weight: bold;
+    padding-left: 60px;
+    align-items: center;
+    padding-right: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time {
+    padding-top: 4px;
+}
+
+.status-icon {
+    width: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.status-icon-image {
+    height: 22px;
+}
+
+.title {
+    font-size: 36px;
+    color: #807256;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.app-grid {
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.app-icon {
+    width: 98px;
+    height: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app-icon-image {
+    width: 98px;
+    height: 98px;
 }

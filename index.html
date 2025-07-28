@@ -17,16 +17,40 @@
 </head>
 
 <body>
-    <!-- urls -->
-    <!-- <div class="urls">
-        <a href="https://mae-boittiaux.github.io/todo-list/" class="no-drag project-url">todo-list</a>
-        <a href="https://mae-boittiaux.github.io/offline-map/" class="no-drag project-url">offline-map</a>
-        <a href="https://mae-boittiaux.github.io/colour-palette/" class="no-drag project-url">colour-palette</a>
-    </div> -->
+    <div class="phone-container">
+        <div class="phone">
+            <div class="status-bar">
+                <div class="status-icon">
+                    <img class="status-icon-image no-drag" src="./images/cellular_status.png">
+                </div>
+                <div class="time" id="time">Loading...</div>
+                <div class="status-icon">
+                    <img class="status-icon-image no-drag" src="./images/location_status.png">
+                </div>
+            </div>
+            <div class="title" id="title">Mae Boittiaux</div>
+
+            <div class="app-grid">
+                <div class="app-icon">
+                    <img class="app-icon-image no-drag" src="./images/chat_icon.png" id="chat-icon">
+                </div>
+                <div class="app-icon">
+                    <img class="app-icon-image no-drag" src="./images/passport_icon.png" id="passport-icon">
+                </div>
+                <div class="app-icon">
+                    <a href="https://mae-boittiaux.github.io/offline-map/">
+                        <img class="app-icon-image no-drag" src="./images/map_icon.png" id="map-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <a href="https://github.com/mae-boittiaux" class="no-drag" id="github-url">https://github.com/mae-boittiaux</a>
     </footer>
+
+    <script type="module" src="./scripts/index.js"></script>
 </body>
 
 </html>
