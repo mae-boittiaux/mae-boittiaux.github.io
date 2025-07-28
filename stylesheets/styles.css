@@ -1,24 +1,14 @@
 :root {
     /* colours */
-    --dark-brown: #352b27;
-    --medium-brown: #b39984;
-
-    --light-beige: #f6efd1;
-    --medium-beige: #e7dec1;
-    --dark-beige: #d6d0b2;
-
-    --muted-blue: #758a8f;
-    --muted-pink: #a48a91;
+    --cream: #fdf8e3;
+    --beige: #e0daca;
+    --brown: #807256;
     --muted-green: #b5c5a8;
-    --muted-purple: #988b95;
-    --muted-yellow: #b8a986;
-
-    --dark-green: #545c4d;
 
     /* font-sizes */
-    --font-large: 42px;
-    --font-medium: 24px;
-    --font-normal: 14px;
+    --font-large: 36px;
+    --font-medium: 28px;
+    --font-small: 14px;
 
     /* font-family */
     --font-family: "Courier Prime", monospace;
@@ -29,12 +19,12 @@
     right: 8px;
     padding-right: 0;
     position: absolute;
-    color: var(--dark-green);
+    color: var(--brown);
 }
 
 a {
     text-decoration: none;
-    font-size: var(--font-normal);
+    font-size: var(--font-small);
 }
 
 a:hover {
@@ -80,22 +70,22 @@ body {
     height: 600px;
     display: flex;
     border-radius: 110px;
-    background: #fdf8e3;
     flex-direction: column;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    background: var(--cream);
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .status-bar {
     height: 30px;
     display: flex;
-    font-size: 28px;
     margin-top: 30px;
-    color: #E0DACA;
     font-weight: bold;
     padding-left: 60px;
+    color: var(--beige);
     align-items: center;
     padding-right: 60px;
     flex-direction: row;
+    font-size: var(--font-medium);
     justify-content: space-between;
 }
 
@@ -115,11 +105,11 @@ body {
 }
 
 .title {
-    font-size: 36px;
-    color: #807256;
     margin-top: 30px;
     font-weight: bold;
     text-align: center;
+    color: var(--brown);
+    font-size: var(--font-large);
 }
 
 .app-grid {
