@@ -2,6 +2,7 @@ const title = document.getElementById('title');
 
 const mapIcon = document.getElementById('map-icon');
 const chatIcon = document.getElementById('chat-icon');
+const todoIcon = document.getElementById('todo-icon');
 const paletteIcon = document.getElementById('palette-icon');
 const passportIcon = document.getElementById('passport-icon');
 
@@ -11,6 +12,10 @@ mapIcon.onmouseenter = () => {
 
 chatIcon.onmouseenter = () => {
     title.innerHTML = 'Contact';
+};
+
+todoIcon.onmouseenter = () => {
+    title.innerHTML = 'To-Do List';
 };
 
 paletteIcon.onmouseenter = () => {
@@ -26,6 +31,10 @@ mapIcon.onmouseleave = () => {
 };
 
 chatIcon.onmouseleave = () => {
+    title.innerHTML = 'Mae Boittiaux';
+};
+
+todoIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
 };
 
