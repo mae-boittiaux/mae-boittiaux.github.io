@@ -5,6 +5,7 @@ const chatIcon = document.getElementById('chat-icon');
 const todoIcon = document.getElementById('todo-icon');
 const paletteIcon = document.getElementById('palette-icon');
 const passportIcon = document.getElementById('passport-icon');
+const settingsIcon = document.getElementById('settings-icon');
 
 mapIcon.onmouseenter = () => {
     title.innerHTML = 'Offline Map';
@@ -26,6 +27,10 @@ passportIcon.onmouseenter = () => {
     title.innerHTML = 'About';
 };
 
+settingsIcon.onmouseenter = () => {
+    title.innerHTML = 'GitHub';
+};
+
 mapIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
 };
@@ -43,6 +48,10 @@ paletteIcon.onmouseleave = () => {
 };
 
 passportIcon.onmouseleave = () => {
+    title.innerHTML = 'Mae Boittiaux';
+};
+
+settingsIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
 };
 
