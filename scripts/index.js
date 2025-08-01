@@ -9,50 +9,62 @@ const settingsIcon = document.getElementById('settings-icon');
 
 mapIcon.onmouseenter = () => {
     title.innerHTML = 'Offline Map';
+    document.title = 'Offline Map | Mae Boittiaux';
 };
 
 chatIcon.onmouseenter = () => {
     title.innerHTML = 'Contact';
+    document.title = 'Contact | Mae Boittiaux';
 };
 
 todoIcon.onmouseenter = () => {
     title.innerHTML = 'To-Do List';
+    document.title = 'To-Do List | Mae Boittiaux';
 };
 
 paletteIcon.onmouseenter = () => {
     title.innerHTML = 'Colour Palette';
+    document.title = 'Colour Palette | Mae Boittiaux';
 };
 
 passportIcon.onmouseenter = () => {
     title.innerHTML = 'About';
+    document.title = 'About | Mae Boittiaux';
 };
 
 settingsIcon.onmouseenter = () => {
     title.innerHTML = 'GitHub';
+    document.title = 'GitHub | Mae Boittiaux';
 };
 
 mapIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 chatIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 todoIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 paletteIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 passportIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 settingsIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
+    document.title = 'Home | Mae Boittiaux';
 };
 
 function updateTime() {
