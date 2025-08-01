@@ -7,6 +7,8 @@ const paletteIcon = document.getElementById('palette-icon');
 const passportIcon = document.getElementById('passport-icon');
 const settingsIcon = document.getElementById('settings-icon');
 
+const defaultTabTitle = 'Home | Mae Boittiaux';
+
 mapIcon.onmouseenter = () => {
     title.innerHTML = 'Offline Map';
     document.title = 'Offline Map | Mae Boittiaux';
@@ -39,32 +41,32 @@ settingsIcon.onmouseenter = () => {
 
 mapIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 chatIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 todoIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 paletteIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 passportIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 settingsIcon.onmouseleave = () => {
     title.innerHTML = 'Mae Boittiaux';
-    document.title = 'Home | Mae Boittiaux';
+    document.title = defaultTabTitle;
 };
 
 function updateTime() {
