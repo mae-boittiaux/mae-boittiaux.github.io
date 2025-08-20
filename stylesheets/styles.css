@@ -134,3 +134,7 @@ body {
     width: 98px;
     height: 98px;
 }
+
+#padding-icon {
+    cursor: default;
+}
